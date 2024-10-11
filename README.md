@@ -3,26 +3,33 @@
 ### Overview
 This is a **social media application** developed using **Flutter**. The app allows users to sign up, create profiles, post updates, share stories, follow other users, engage in social interactions (liking, commenting, chatting), and more. This project showcases my proficiency in **Flutter**, **Firebase (or another backend)**, and building modern, feature-rich apps.
 
-### Features
-- **User Authentication**: Sign up and log in using email and password.
+## Features
+
+- **User Authentication**: Sign up and log in using email and password, managed through the backend API.
 - **Profile Management**: Users can update their personal details and profile picture.
 - **Post Creation**: Users can create posts with text and images.
 - **News Feed**: A scrollable feed displaying posts from people the user follows.
 - **Stories**: Users can post short, time-sensitive content (images, videos) that disappear after 24 hours.
 - **Follow System**: Users can follow/unfollow other users.
 - **Likes and Comments**: Interact with posts by liking or commenting on them.
-- **Direct Messaging (Chat)**: Real-time 1-on-1 chat with other users.
-- **Real-time Notifications**: Users receive updates when someone likes, comments, or sends a message.
+- **Direct Messaging (Chat)**: Real-time 1-on-1 chat with other users using **WebSocket** technology for instant communication.
+- **Real-time Notifications**: Users receive updates when someone likes, comments, or sends a message, powered by **WebSockets** for instant delivery.
 
-### Screenshots
-Adding Shortly
+## Screenshots
 
-### Technologies Used
+Adding shortly.
+
+## Technologies Used
+
 - **Flutter**: For building the UI and handling cross-platform compatibility.
 - **Dart**: Programming language for Flutter development.
-- **Firebase**: Backend services like Authentication, Firestore (for database), Storage (for media), and Firebase Cloud Messaging (for real-time notifications).
-- **Provider (or BLoC)**: State management.
-- **Cloud Firestore**: Real-time database for storing posts, chats, user data, etc.
+- **Node.js**: Backend API to manage authentication, post data, messaging, etc.
+- **MongoDB**: Database for storing posts, user information, messages, etc.
+- **WebSockets**: Integrated for real-time messaging and notifications between users, enabling instant communication.
+- **State Management**: Utilized **Provider** and **ChangeNotifier** for managing the app state efficiently.
+- **SharedPreferences**: For local storage of user data and preferences.
+- **HTTP**: For API communication between the frontend and backend.
+- **Image Picker & File Upload**: For handling image uploads within the app.
 
 ### Installation & Setup
 1. Clone the repository:
